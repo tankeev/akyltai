@@ -1,0 +1,119 @@
+
+.cd-morph-dropdown .gallery2 .content li {
+  margin-bottom: 1.4em;
+}
+.cd-morph-dropdown .gallery2 .content a {
+  display: block;
+}
+.cd-morph-dropdown .gallery2 .content a::before {
+  /* icon on the left*/ 
+  content:'';
+  display: block;
+  float: left;
+  height: 50px;
+  width: 50px;
+  margin-right: .6em;
+  background: red;
+  border-radius: 50%;
+  -webkit-transition: background .2s;
+  transition: background .2s;
+}
+.cd-morph-dropdown .gallery2 .content a span, .cd-morph-dropdown .gallery2 .content a em {
+  display: block;
+  line-height: 1.2;
+}
+.cd-morph-dropdown .gallery2 .content a em {
+  font-size: 1.8rem;
+  padding: .4em 0 .2em;
+  color: #1A1A1A;
+}
+.cd-morph-dropdown .gallery2 .content a span {
+  font-size: 1.4rem;
+  color: #a6a6a6;
+}
+.cd-morph-dropdown .gallery2 .content a:hover::before {
+  background-color: rgba(255, 255, 255, 0);}
+
+.cd-morph-dropdown .gallery2 li:nth-of-type(1) a::before {
+  background: #ffffff url(../img/pencil.svg) no-repeat;
+}
+.cd-morph-dropdown .gallery2 li:nth-of-type(2) a::before {
+  background: rgb(255, 255, 255) url(../img/watch.svg) no-repeat;
+}
+.cd-morph-dropdown .gallery2 li:nth-of-type(3) a::before {
+  background: rgb(255, 255, 255) url(../img/lib.svg) no-repeat;
+}
+.cd-morph-dropdown .gallery2 li:nth-of-type(4) a::before {
+  background: rgb(255, 255, 255) url(../img/teachers.svg) no-repeat;
+}
+/**gallery 2 for dropdown**/
+
+  .cd-morph-dropdown .gallery2 .content {
+    /* you need to set a width for the .content elements because they have a position absolute */
+    width: 510px;
+    padding-bottom: .8em;
+  }
+  .cd-morph-dropdown .gallery2 .content li {
+    margin-bottom: 1.8em;
+  }
+ 
+  
+  /*gallery of images drop down****************************************************/
+  .cd-morph-dropdown .gallery3 .content li {
+  margin-bottom: 1.4em;
+}
+.cd-morph-dropdown .gallery3 .content a {
+  display: block;
+}
+.cd-morph-dropdown .gallery3 .content a::before {
+  /* icon on the left*/ 
+  content:'';
+  display: block;
+  float: left;
+  height: 50px;
+  width: 50px;
+  margin-right: .6em;
+  background: red;
+  border-radius: 50%;
+  -webkit-transition: background .2s;
+  transition: background .2s;
+}
+.cd-morph-dropdown .gallery3 .content a span, .cd-morph-dropdown .gallery3 .content a em {
+  display: block;
+  line-height: 1.2;
+}
+.cd-morph-dropdown .gallery3 .content a em {
+  font-size: 1.8rem;
+  padding: .4em 0 .2em;
+  color: #1A1A1A;
+}
+.cd-morph-dropdown .gallery3 .content a span {
+  font-size: 1.4rem;
+  color: #a6a6a6;
+}
+.cd-morph-dropdown .gallery3 .content a:hover::before {
+  background-color: rgba(255, 255, 255, 0);}
+
+.cd-morph-dropdown .gallery3 li:nth-of-type(1) a::before {
+  background: #ffffff url(../img/pencil.svg) no-repeat;
+}
+.cd-morph-dropdown .gallery3 li:nth-of-type(2) a::before {
+  background: rgb(255, 255, 255) url(../img/watch.svg) no-repeat;
+}
+.cd-morph-dropdown .gallery3 li:nth-of-type(3) a::before {
+  background: rgb(255, 255, 255) url(../img/lib.svg) no-repeat;
+}
+.cd-morph-dropdown .gallery3 li:nth-of-type(4) a::before {
+  background: rgb(255, 255, 255) url(../img/teachers.svg) no-repeat;
+}
+/**gallery 2 for dropdown**/
+
+  .cd-morph-dropdown .gallery3 .content {
+    /* you need to set a width for the .content elements because they have a position absolute */
+    width: 510px;
+    padding-bottom: .8em;
+  }
+  .cd-morph-dropdown .gallery3 .content li {
+    margin-bottom: 1.8em;
+  }
+

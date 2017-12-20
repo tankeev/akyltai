@@ -38,7 +38,7 @@ Modules - reusable parts of our design
 -------------------------------- */
 .cd-container_vertical {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
-  width: 90%;
+  width: 100%;
   max-width: 1170px;
   margin: 0 auto;
 }
@@ -62,17 +62,16 @@ Main components
 }
 .vertical h1 {
   color: white;
-  font-size: 22px;
  
+  font-size: 2rem;
 }
 @media only screen and (min-width: 1170px) {
   .vertical {
     height: 300px;
     line-height: 300px;
   }
-  .vertical h1 {
-    font-size: 24px;
-    font-size: 1.5rem;
+  .vertical h1 {    
+    font-size: 3rem;
   }
 }
 
@@ -253,8 +252,8 @@ Main components
   color: #303e49;
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-  font-size: 13px;
-  font-size: 0.8125rem;
+ 
+  font-size: 1em;
 }
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   display: inline-block;
@@ -290,16 +289,16 @@ Main components
 }
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
-    font-size: 20px;
-    font-size: 1.25rem;
+  
+    font-size: 1.8rem;
   }
   .cd-timeline-content p {
-    font-size: 16px;
-    font-size: 1rem;
+  
+    font-size: 1.8rem;
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-    font-size: 14px;
-    font-size: 0.875rem;
+ 
+    font-size: 2rem;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -322,7 +321,7 @@ Main components
     width: 100%;
     left: 122%;
     top: 6px;
-    font-size: 16px;
+ 
     font-size: 1rem;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content {

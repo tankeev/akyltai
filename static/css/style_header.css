@@ -32,7 +32,7 @@ a {
   color: #fbffff;
   float: left;
   height: 60px;
-  padding: 25px 35px;
+  padding: 25px 45px;
   font-size: 22px;
   line-height: 20px;
   font-family: 'Roboto', sans-serif;  
@@ -219,8 +219,7 @@ a {
 .cd-morph-dropdown .links .content > ul > li {
   margin-top: 1em;
 }
-.cd-morph-dropdown .links-list a,
-.cd-morph-dropdown .btn {
+.cd-morph-dropdown .links-list a {
   display:sblock;
   margin-left: 14px;
   font-size: 2.2rem;
@@ -257,7 +256,7 @@ a {
   }
   .cd-morph-dropdown .main-nav {
     display: inline-block;
-    padding-right: 120px;
+    padding-right: 60px;
   }
   .cd-morph-dropdown .main-nav > ul > li {
     display: inline-block;
@@ -265,7 +264,7 @@ a {
   }
   .cd-morph-dropdown .main-nav > ul > li > a {
     display: block;
-    padding: 0px   8px;
+    padding: 0px   10px;
     height: 70px;
     line-height: 70px;
     color: #FFFFFF;
@@ -420,11 +419,18 @@ a {
   }
   .cd-morph-dropdown .links .content > ul > li {
     margin-top: 0;
+  
   }
-  .cd-morph-dropdown .links .content,
-  .cd-morph-dropdown .button .content {
+  /* links from the right drop menu width******************************/
+  .cd-morph-dropdown .links .content {
     width: 280px;
+}
+  .cd-morph-dropdown .button .content {
+    width: 210px;
+    
+    
   }
+
   .cd-morph-dropdown .links-list a {
     font-size: 1.6rem;
     margin-left: 0;

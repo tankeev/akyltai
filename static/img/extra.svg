@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+ <rect class="nucleo-frame" x="0" y="0" width="48" height="48" rx="24" ry="24" fill="#88d29f"></rect> 
+<g class="nc-icon-wrapper" transform="translate(11.52 11.52) scale(0.52)" fill="#16541d">
+        <circle cx="14.4" cy="28.8" r="6.4"></circle>
+        <circle cx="29.6" cy="36" r="4"></circle>
+        <circle cx="30.4" cy="17.6" r="9.6"></circle>
+    </g></svg>

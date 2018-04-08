@@ -9,7 +9,7 @@
 }
 .cb-slideshow:after { 
     content: '';
-    background: transparent url(../images/pattern.png) repeat top left; 
+    background: transparent url(../img/n.png) repeat top left; 
 }
 .cb-slideshow li span { 
     width: 100%;
@@ -38,7 +38,7 @@
     width: 100%;
     text-align: center;
     opacity: 0;
-    color: #fff;
+    color: #fffe;
     -webkit-animation: titleAnimation 36s linear infinite 0s;
     -moz-animation: titleAnimation 36s linear infinite 0s;
     -o-animation: titleAnimation 36s linear infinite 0s;
@@ -52,10 +52,10 @@
     line-height: 200px; 
 }
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url(../images/1.jpg) 
+    background-image: url(../img/1.jpg) 
 }
 .cb-slideshow li:nth-child(2) span { 
-    background-image: url(../images/2.jpg);
+    background-image: url(../img/2.jpg);
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
     -o-animation-delay: 6s;

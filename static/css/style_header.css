@@ -29,11 +29,12 @@ a {
 
 -------------------------------- */
 .navbar-default .navbar-brand {
-  color: #fbffff;
+  color: #ffffff;
+  font-weight: 900;
   float: left;
   height: 60px;
   padding: 25px 45px;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 20px;
   font-family: 'Roboto', sans-serif;  
 }
@@ -62,21 +63,24 @@ a {
 }
 .cd-morph-dropdown .nav-trigger {
   /* menu icon - visible on small screens only */
+  padding-top: 1px;
   position: absolute;
   top: 0;
   right: 0;
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
   /* replace text with icon */
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
-  color: transparent;
+  background-color: #039ea0a1;
+  border-radius: 9px;
 }
+
 .cd-morph-dropdown .nav-trigger span, .cd-morph-dropdown .nav-trigger span::after, .cd-morph-dropdown .nav-trigger span::before {
   /* these are the 3 lines of the menu icon */
   position: absolute;
-  background-color: rgb(240, 120, 9);
+  background-color: rgb(255, 255, 255);
   height: 3px;
   width: 26px;
 }

@@ -18,7 +18,7 @@
   <link rel="stylesheet" type="text/css" href="{% static 'css/slider.css' %}">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
   <link rel="stylesheet" href="{% static 'css/reset.css' %}">
   <!-- CSS reset -->
   <link rel="stylesheet" href="{% static 'css/style_header.css' %}">
@@ -41,7 +41,7 @@
 </head>
 
 <body>       
-  <div class="container">           
+  <div class="container container-slide">           
             <div class="main-header">
               <ul class="cb-slideshow">
             <li><span>Image 01</span></li>
@@ -288,131 +288,228 @@
                
               </div>
           </div>
-  <!--header-->
+      </div>
 
-  <!--/ header-->
-  <!---->
-  <section id="cta-1">
-    <div class="container">
-      <div class="row">
-        <div class="cta-info text-center">
-          <h3><span class="dec-tec">“</span>Билим гана адамды эркин жана бийик кылат<span class="dec-tec">”</span> -Ч. Айтматов</h3>
+<section id="cta-1">
+  
+    <div class="row one">
+      <div class="author-quote-wrap">
+        <input class="toggle-quote" type="radio" id="AQ-1" name="quote" checked>
+        <div class="author-quote">
+          <div class=" col-sm pull-left author-photo photo-a animated bounceInLeft">
+            <div class="navigate">
+              <label class="label left" for="AQ-5">&nbsp;</label>
+              <label class="label right" for="AQ-2">&nbsp;</label>
+            </div>
+          </div>
+          <div class="col-md pull-right quote-content">
+            <div class="clearfix animated zoomIn">
+              <div class="quote-like pull-right">
+                <span class="love"></span> 423</div>
+            </div>
+            <div class="quote-text animated rotateInDownRight">
+              Билим гана адамды эркин жана бийик кылат
+            </div>
+            <div class="quote-author animated lightSpeedIn">Ч. Айтматов</div>
+          </div>
+        </div>
+
+        <input class="toggle-quote" type="radio" id="AQ-2" name="quote">
+        <div class="author-quote">
+          <div class="pull-left author-photo photo-b animated bounceInLeft">
+            <div class="navigate">
+              <label class="label left" for="AQ-1">&nbsp;</label>
+              <label class="label right" for="AQ-3">&nbsp;</label>
+            </div>
+          </div>
+          <div class="pull-right quote-content">
+            <div class="clearfix animated zoomIn">
+              <div class="quote-like pull-right">
+                <span class="love"></span> 512</div>
+            </div>
+            <div class="quote-text animated zoomInDown">My Goal Was
+              <br>To Prove
+              <br>To My Family
+              <br>I wasn't a dummy</div>
+            <div class="quote-author animated lightSpeedIn">Ronalda Colen</div>
+          </div>
+        </div>
+
+        <input class="toggle-quote" type="radio" id="AQ-3" name="quote">
+        <div class="author-quote">
+          <div class="pull-left author-photo photo-c animated bounceInLeft">
+            <div class="navigate">
+              <label class="label left" for="AQ-2">&nbsp;</label>
+              <label class="label right" for="AQ-4">&nbsp;</label>
+            </div>
+          </div>
+          <div class="pull-right quote-content">
+            <div class="clearfix animated zoomIn">
+              <div class="quote-like pull-right">
+                <span class="love"></span> 618</div>
+            </div>
+            <div class="quote-text animated bounceInRight">Smart-Phones.
+              <br>Who Cares?
+              <br>Smart-Phones.
+              <br>I Only Have
+              <br>Dummy Phones</div>
+            <div class="quote-author animated lightSpeedIn">Don Rickles</div>
+          </div>
+        </div>
+
+        <input class="toggle-quote" type="radio" id="AQ-4" name="quote">
+        <div class="author-quote">
+          <div class="pull-left author-photo photo-d animated bounceInLeft">
+            <div class="navigate">
+              <label class="label left" for="AQ-3">&nbsp;</label>
+              <label class="label right" for="AQ-5">&nbsp;</label>
+            </div>
+          </div>
+          <div class="pull-right quote-content">
+            <div class="clearfix animated zoomIn">
+              <div class="quote-like pull-right">
+                <span class="love"></span> 741</div>
+            </div>
+            <div class="quote-text animated lightSpeedIn">Design
+              <br>Means
+              <br>Being Good
+              <br>Not Just
+              <br>Looking Good</div>
+            <div class="quote-author animated lightSpeedIn">Jacquie Dermody</div>
+          </div>
+        </div>
+
+        <input class="toggle-quote" type="radio" id="AQ-5" name="quote">
+        <div class="author-quote">
+          <div class="pull-left author-photo photo-e animated bounceInLeft">
+            <div class="navigate">
+              <label class="label left" for="AQ-4">&nbsp;</label>
+              <label class="label right" for="AQ-1">&nbsp;</label>
+            </div>
+          </div>
+          <div class="pull-right quote-content">
+            <div class="clearfix animated zoomIn">
+              <div class="quote-like pull-right">
+                <span class="love"></span> 824</div>
+            </div>
+            <div class="quote-text animated flipInX">Design
+              <br>Is
+              <br>Thinking
+              <br>Made
+              <br>Visible</div>
+            <div class="quote-author animated lightSpeedIn">Mohan Khadka</div>
+          </div>
         </div>
       </div>
     </div>
-  </section>
-  <!---->
-  </div>
-  <!---->
-  <!--vertical time line for why to select akyltai***********************************-->
-  <div class="vertical_css">
+
+</section>
+<!---->
+<!--vertical time line for why to select akyltai***********************************-->
+<div class="vertical_css">
   <header class="vertical">
     <h1>10 Причин чтобы выбрать "Акылтай"</h1>
   </header>
-  
+
   <section id="cd-timeline" class="cd-container_vertical">
     <div class="cd-timeline-block">
       <div class="cd-timeline-img cd-picture">
         <img src="{% static 'img/cd-icon-picture.svg' %}" alt="Picture">
       </div>
       <!-- cd-timeline-img -->
-  
+
       <div class="cd-timeline-content">
         <h2>Title of section 1</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat
           iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-        
-        
+
+
       </div>
       <!-- cd-timeline-content -->
     </div>
     <!-- cd-timeline-block -->
-  
+
     <div class="cd-timeline-block">
       <div class="cd-timeline-img cd-movie">
         <img src="{% static 'img/cd-icon-movie.svg' %}" alt="Movie">
       </div>
       <!-- cd-timeline-img -->
-  
+
       <div class="cd-timeline-content">
         <h2>Title of section 2</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat
           iure tempora laudantium ipsa ad debitis unde?</p>
-        
-        
+
+
       </div>
       <!-- cd-timeline-content -->
     </div>
     <!-- cd-timeline-block -->
-  
+
     <div class="cd-timeline-block">
       <div class="cd-timeline-img cd-picture">
         <img src="{% static 'img/cd-icon-picture.svg' %}" alt="Picture">
       </div>
       <!-- cd-timeline-img -->
-  
+
       <div class="cd-timeline-content">
         <h2>Title of section 3</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores
-          voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum
-          quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos
-          repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum
-          eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
-        
+          voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae
+          rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus
+          quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem
+          voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+
       </div>
       <!-- cd-timeline-content -->
     </div>
     <!-- cd-timeline-block -->
-  
+
     <div class="cd-timeline-block">
       <div class="cd-timeline-img cd-location">
         <img src="{% static 'img/cd-icon-location.svg' %}" alt="Location">
       </div>
       <!-- cd-timeline-img -->
-  
+
       <div class="cd-timeline-content">
         <h2>Title of section 4</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat
           iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-        
+
       </div>
       <!-- cd-timeline-content -->
     </div>
     <!-- cd-timeline-block -->
-  
+
     <div class="cd-timeline-block">
       <div class="cd-timeline-img cd-location">
         <img src="{% static 'img/cd-icon-location.svg' %}" alt="Location">
       </div>
       <!-- cd-timeline-img -->
-  
+
       <div class="cd-timeline-content">
         <h2>Title of section 5</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
-        
+
       </div>
       <!-- cd-timeline-content -->
     </div>
     <!-- cd-timeline-block -->
-  
+
     <div class="cd-timeline-block">
       <div class="cd-timeline-img cd-movie">
         <img src="{% static 'img/cd-icon-movie.svg' %}" alt="Movie">
       </div>
       <!-- cd-timeline-img -->
-  
+
       <div class="cd-timeline-content">
         <h2>Final Section</h2>
-        
+
       </div>
       <!-- cd-timeline-content -->
     </div>
     <!-- cd-timeline-block -->
   </section>
-  <!-- cd-timeline -->
- 
-  <!-- Resource jQuery -->
-</div>
 <div class="container">
 
   <section id="feature" class="section-padding">

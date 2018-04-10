@@ -406,10 +406,11 @@ a, a:hover
   width: 100%;
   overflow: hidden;
   max-width: 100%;
-  min-height: 390px;
+  min-height: 200px;
   margin: 0px auto 0;
   background: #fcb22a;
   position: relative;
+  font-family: 'Poiret One', cursive !important;
   
 }
 .author-quote-wrap .author-quote {
@@ -440,18 +441,7 @@ a, a:hover
 .author-quote-wrap .author-photo.photo-a {
   background-image: url(http://thankyou.ru/upload/client/a5b9c7ba4b28f7eeb4450c93518eef11.png);
 }
-.author-quote-wrap .author-photo.photo-b {
-  background-image: url(https://raw.githubusercontent.com/khadkamhn/day-007-author-quote/master/img/author-2.jpg);
-}
-.author-quote-wrap .author-photo.photo-c {
-  background-image: url(https://raw.githubusercontent.com/khadkamhn/day-007-author-quote/master/img/author-3.jpg);
-}
-.author-quote-wrap .author-photo.photo-d {
-  background-image: url(https://raw.githubusercontent.com/khadkamhn/day-007-author-quote/master/img/author-4.jpg);
-}
-.author-quote-wrap .author-photo.photo-e {
-  background-image: url(https://raw.githubusercontent.com/khadkamhn/day-007-author-quote/master/img/author-5.jpg);
-}
+
 .author-quote-wrap .author-photo:before {
   content: "";
   background: rgba(22, 160, 255, 0.5);
@@ -467,7 +457,7 @@ a, a:hover
 }
 .author-quote-wrap .author-photo .navigate {
   left: 15px;
-  z-index: 10;
+  z-index: 6;
   right: 15px;
   bottom: 15px;
   position: absolute;
@@ -492,8 +482,8 @@ a, a:hover
 .author-quote-wrap .author-photo .navigate .label:before,
 .author-quote-wrap .author-photo .navigate .label:after {
   content: "";
-  height: 2px;
-  width: 15px;
+  height: 22px;
+  width: 55px;
   background: #ccc;
   position: absolute;
 }
@@ -505,11 +495,11 @@ a, a:hover
 }
 .author-quote-wrap .author-photo .navigate .label.left:before,
 .author-quote-wrap .author-photo .navigate .label.right:after {
-  transform: rotate(45deg);
+  transform: none;
 }
 .author-quote-wrap .author-photo .navigate .label.right:before,
 .author-quote-wrap .author-photo .navigate .label.left:after {
-  transform: rotate(-45deg);
+  transform: none;
 }
 .author-quote-wrap .author-photo .navigate .label.left:before,
 .author-quote-wrap .author-photo .navigate .label.left:after {
@@ -532,23 +522,9 @@ a, a:hover
 
 .author-quote-wrap .quote-content {
   padding: 15px;
-  width: calc(560px - 140px);
+  width: 100%;
 }
-.quote-content .quote-like {
-  font-size: 12px;
-  font-weight: 400;
-  padding: 4px 8px;
-  border-radius: 15px;
-  max-width: 800px;
-  display: inline-block;
-  background: rgba(0, 0, 0, 0.2);
-}
-.quote-content .quote-like .love {
-  width: 18px;
-  height: 10px;
-  position: relative;
-  display: inline-block;
-}
+
 .quote-content .quote-like .love:before,
 .quote-content .quote-like .love:after {
   top: 0;
@@ -573,19 +549,95 @@ a, a:hover
   text-transform: None;
 }
 .quote-content .quote-text {
-  font-size: 48px;
-  font-weight: 900;
-  line-height: 55px;
+  font-size: 38px;
+  font-weight: 200 !important;
+  line-height: 35px;
+  width: 90%;
+  padding-top: 3%;
+  padding-left: 25%;
+  padding-right:6%
 }
+
+@media(max-width:360px){
+   .quote-content .quote-text {
+    font-size: 24px;
+    font-weight: 200 !important;
+    line-height: 24px;
+    width: 100%;
+    padding-top: 8%;
+    padding-left: 56%;
+    padding-right:0%
+}
+  .author-quote-wrap {
+    color: #fff;
+    width: 93%;
+    overflow: hidden;
+    max-width: 100%;
+    min-height: 200px;
+    margin: 0px auto 0;
+    background: #fcb22a;
+    position: relative;
+    font-family: 'Poiret One', cursive !important;
+  
+}
+  .author-quote-wrap .author-photo{
+    width: 50%;
+    position: relative;
+}
+  
+}
+
+@media(max-width:411px){
+   .quote-content .quote-text {
+    font-size: 24px;
+    font-weight: 200 !important;
+    line-height: 24px;
+    width: 100%;
+    padding-top: 8%;
+    padding-left: 56%;
+    padding-right:0%
+}
+  .author-quote-wrap {
+    color: #fff;
+    width: 93%;
+    overflow: hidden;
+    max-width: 100%;
+    min-height: 200px;
+    margin: 0px auto 0;
+    background: #fcb22a;
+    position: relative;
+    font-family: 'Poiret One', cursive !important;
+  
+}
+  .author-quote-wrap .author-photo{
+    width: 50%;
+    position: relative;
+}
+
+}
+
+
+
+
 .quote-content .quote-author {
   bottom: 15px;
-  font-size: 14px;
-  font-weight: 500;
-  position: absolute;
+  font-size: 24px;
+  font-weight: 200 !important;
+  position: absolute;  
+  font-weight: 200 !important;
 }
 .quote-content .quote-author:before {
   content: "- ";
 }
 
+#cta-1{
+  z-index: 10;
+}
+.cd-morph-dropdown{
+  z-index: 30;
+}
+.author-quote-wrap{
+  z-index: 1;
+}
 
 

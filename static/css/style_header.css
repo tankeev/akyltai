@@ -22,7 +22,9 @@ a {
   color: #DB6356;
   text-decoration: none;
 }
-
+.container-slide{
+  z-index: 10;
+}
 /* -------------------------------- 
 
  Header

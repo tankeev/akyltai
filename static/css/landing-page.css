@@ -1,21 +1,11 @@
-body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
-}
+
 
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background: url("/static/img/bg-masthead.jpg") no-repeat center center;
+  background-image: url("../img/bg-masthead.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -48,13 +38,32 @@ header.masthead h1 {
   }
 }
 
+@media(max-width:800px){
+  .tema{      
+      font-size: 20px !important;
+      
+}
+}
+.tema{
+      text-align: center;
+      padding-bottom: 20px;
+      font-size: 30px;
+      font-weight: 200;
+      color:#797979;
+}
+
 .showcase .showcase-text {
   padding: 3rem;
 }
 
+
 .showcase .showcase-img {
   min-height: 30rem;
   background-size: cover;
+}
+
+.no-gutters #img-1{
+  background: url(../img/banner.jpg) no-repeat;
 }
 
 @media (min-width: 768px) {

@@ -616,6 +616,34 @@ a, a:hover
 
 }
 
+@media(min-width:415px) and (max-width:850px){
+   .quote-content .quote-text {
+    font-size: 24px;
+    font-weight: 200 !important;
+    line-height: 24px;
+    width: 100%;
+    padding-top: 8%;
+    padding-left: 56%;
+    padding-right:0%
+}
+  .author-quote-wrap {
+    color: #fff;
+    width: 100%;
+    overflow: hidden;
+    max-width: 100%;
+    min-height: 200px;
+    margin: 0px auto 0;
+    background: #fcb22a;
+    position: relative;
+    font-family: 'Poiret One', cursive !important;
+  
+}
+  .author-quote-wrap .author-photo{
+    width: 50%;
+    position: relative;
+}
+
+}
 
 
 

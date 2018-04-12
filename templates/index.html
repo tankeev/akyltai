@@ -9,10 +9,15 @@
   <title>НОШ "Акылтай"</title>
   <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
   <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
-  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
   
+  <!-- Custom fonts for this template -->
+  <link href="{% static 'vendor/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+  <link href="{% static 'vendor/simple-line-icons/css/simple-line-icons.css' %}" rel="stylesheet" type="text/css">
+  <link href="{% static 'vendor/simple-line-icons/css/simple-line-icons.css' %}" rel="stylesheet" type="text/css">
+  <link href="{% static 'vendor/css/bootsrap-reboot.css' %}" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="{% static 'css/landing-page.css' %}" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300|Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
@@ -32,6 +37,13 @@
   <link rel="stylesheet" href="{% static 'css/style_header.css' %}">
   <link rel="stylesheet" href="{% static 'css/style1.css' %}">
   <link rel="stylesheet" href="{% static 'css/dropdown2.css' %}">
+  <link rel="stylesheet" href="{% static 'scss/_showcase.scss' %}">
+  <link rel="stylesheet" href="{% static 'scss/_call-to-action.scss' %}">
+  <link rel="stylesheet" href="{% static 'scss/_global.scss' %}">
+  <link rel="stylesheet" href="{% static 'scss/_icons.scss' %}">
+  <link rel="stylesheet" href="{% static 'scss/_masthead.scss' %}">
+  <link rel="stylesheet" href="{% static 'scss/_testimanials.scss' %}">
+  <link rel="stylesheet" href="{% static 'scss/landing-page.scss' %}">
   <link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>  
   
   <!-- Resource style -->
@@ -319,21 +331,7 @@
 </section>
 
 <!-- Icons Grid -->
-<section class="features-icons bg-light text-left">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">        
-          <p class="lead mb-0">Акылтай мектеби, эл аралык “Себат” билим берүү мекемеси жана Кыргыз Республикасынын билим берүү Министрлигинин ортосундагы
-          келишимдин негизинде иш жүргүзүп келет. Окуу ишмердиги Кыргыз республикасынын билим берүү жана илим министрлигинин бекиткен
-          окуу программасынын негизинде жүргүзүлөт. Мектептик компонент катары класстарга жараша англис тили, түрк тили, информатика,
-          логика, сөз өстүрүү, китеп окуу, этюд(чыгармачылык сааты) ж.б. сабактары каралган. Окуу жылы 1-сентябрь 25-май аралыгында,
-          4 чейректик, 5 күндүк окуу мөөнөтү менен жүргүзүлөт.</p>        
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="features-icons bg-light text-center">
+<section id = "asd" class="features-icons bg-light text-center">
   <div class="container">
     <div class="row">
       <div class="col-lg-4">
@@ -341,8 +339,8 @@
           <div class="features-icons-icon d-flex">
             <i class="icon-screen-desktop m-auto text-primary"></i>
           </div>
-          <h1>Fully Responsive</h1>
-          <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+          <h1 class="h1">Мультимедия системасы</h1>
+          <p class="lead mb-0">Бардык класстар заманбап мультимедия системасы менен жабдылган!</p>
         </div>
       </div>
       <div class="col-lg-4">
@@ -350,8 +348,8 @@
           <div class="features-icons-icon d-flex">
             <i class="icon-layers m-auto text-primary"></i>
           </div>
-          <h3>Bootstrap 4 Ready</h3>
-          <p class="lead mb-0">Featuring the latest build of the new Bootstrap 4 framework!</p>
+          <h1 class="h1">Тереңдетилген окуу модели</h1>
+          <p class="lead mb-0">Ойлоп табуучулукту жогорулаткан, маселе чечүү шыгын күчтөндүргөн модел!</p>
         </div>
       </div>
       <div class="col-lg-4">
@@ -359,37 +357,38 @@
           <div class="features-icons-icon d-flex">
             <i class="icon-check m-auto text-primary"></i>
           </div>
-          <h3>Easy to Use</h3>
-          <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
+          <h1 class="h1">Е-журнал </br> Е-күндөлүк</h1>
+          <p class="lead mb-0">Укуучулардын жетишкендиктери электрондук журнал жана күндөлүктө сакталат!</p>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 <!-- Image Showcases -->
 <section class="showcase">
   <div class="container-fluid p-0">
     <div class="row no-gutters">
 
-      <div id="img-1" class="col-lg-6 order-lg-2 text-white showcase-img img-1" style=" background: url(static/img/bg-showcase-1.jpg);"></div>
+      <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('static/img/bg-showcase-1.jpg');"></div>
       <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-        <h2>Fully Responsive Design</h2>
+        <h2 class="h2" >Fully Responsive Design</h2>
         <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's
           a phone, tablet, or desktop the page will behave responsively!</p>
       </div>
     </div>
     <div class="row no-gutters">
-      <div class="col-lg-6 text-white showcase-img" style="background: url(static/img/bg-showcase-2.jpg);"></div>
+      <div class="col-lg-6 text-white showcase-img" style="background-image: url('static/img/bg-showcase-2.jpg');"></div>
       <div class="col-lg-6 my-auto showcase-text">
-        <h2>Updated For Bootstrap 4</h2>
+        <h2 class="h2" >Updated For Bootstrap 4</h2>
         <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development!
           All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
       </div>
     </div>
     <div class="row no-gutters">
-      <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background: url(static/img/bg-showcase-3.jpg);"></div>
+      <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('static/img/bg-showcase-3.jpg');"></div>
       <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-        <h2>Easy to Use &amp; Customize</h2>
+        <h2 class="h2" >Easy to Use &amp; Customize</h2>
         <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out
           of the box, just add your content and images, and your new landing page will be ready to go!</p>
       </div>
@@ -405,23 +404,47 @@
       <div class="col-lg-4">
         <div class="testimonial-item mx-auto mb-5 mb-lg-0">
           <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
-          <h5>Margaret E.</h5>
+          <h5 class="h5">Margaret E.</h5>
           <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
         </div>
       </div>
       <div class="col-lg-4">
         <div class="testimonial-item mx-auto mb-5 mb-lg-0">
           <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
-          <h5>Fred S.</h5>
+          <h5 class="h5" >Fred S.</h5>
           <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
         </div>
       </div>
       <div class="col-lg-4">
         <div class="testimonial-item mx-auto mb-5 mb-lg-0">
           <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
-          <h5>Sarah W.</h5>
+          <h5 class="h5" >Sarah W.</h5>
           <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Call to Action -->
+<section class="call-to-action text-white text-center">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-9 mx-auto">
+        <h2 class="mb-4 h2">Ready to get started? Sign up now!</h2>
+      </div>
+      <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+        <form>
+          <div class="form-row">
+            <div class="col-12 col-md-9 mb-2 mb-md-0">
+              <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
+            </div>
+            <div class="col-12 col-md-3">
+              <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
   </div>
@@ -471,9 +494,14 @@
   <script src="{% static 'js/bootstrap.min.js' %}"></script>
   <script src="{% static 'js/wow.js' %}"></script>
   <script src="{% static 'js/custom.js' %}"></script>
+  <script src="{% static 'js/gulpfile.js' %}"></script>
+  <script src="{% static 'js/package.json' %}"></script>
+  <script src="{% static 'js/package-lock.json' %}"></script>
   <script src="{% static 'contactform/contactform.js' %}"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
   
   
   <script src="{% static 'js/modernizr-custom.js'  %}"></script>

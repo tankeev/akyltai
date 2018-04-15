@@ -75,8 +75,8 @@ WSGI_APPLICATION = 'akyltai.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'akyltai',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'robot',
         'USER': 'root',
         'PASSWORD': 'kyrgyzstan1'
     }

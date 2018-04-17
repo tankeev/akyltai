@@ -6,16 +6,17 @@
 }
 
 #krujok{
-    background-color: #ffeb00!important
+    background-color: #f3a908 !important;
 }
 
 .title-krujok{
-    padding: 15% 0px 3% 0px;
+  max-width: 100%;
+    padding: 7% 0px 0% 0px;
     text-align: center;
     font-size: 30px;
     text-transform: uppercase;
-    color:rgb(36, 35, 35);
-    font-weight: 700;
+    color:rgb(32, 32, 32);
+    font-weight: 800;
     line-height:100px; 
     vertical-align:middle !important; 
     
@@ -26,6 +27,7 @@
 .krujok-text{
     font-weight: 100;
     padding-bottom: 15%;
+    font-size: 24px;
     color: rgb(65, 65, 65);
 }
 .photobox{

@@ -18,7 +18,7 @@ from django.contrib import admin
 from akyltai import views as book_views
 
 urlpatterns = [
-    url(r'^$',book_views.index),
-    url(r'^info/',book_views.base),
+    url(r'^$',book_views.index , name='home'),
+    url(r'^info/',book_views.base, name="info"),
     url(r'^admin/', admin.site.urls),
 ]

@@ -11,10 +11,44 @@
     height: 6em;
  }
 
+ #header h1{
+    text-align: left;
+    padding: 50px 0px 0px 0px;
+    color: aliceblue;
+    font-size: 3.5rem;
+ }
+#desc
+  .h2, h2 {
+    font-size: 3.25rem;
+    padding-bottom: 15px;
+}
+
+#desc .lead {
+    font-size: 1.75rem !important;
+    font-weight: 300;
+}
+
+#desc ul>li{
+  font-size: 1.75rem;
+}
+}
+
+a, a:hover {
+  text-decoration-color: #FFD34E;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 header {
   padding: 154px 0 100px;
-  background-image: url('/static/images/1.jpg');
+  background-image: url('/static/img/1.jpg');
+  min-height: 500px;
 }
+
 
 
 @media (min-width: 992px) {

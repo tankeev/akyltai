@@ -19,5 +19,6 @@ from akyltai import views as book_views
 
 urlpatterns = [
     url(r'^$',book_views.index),
+    url(r'^info/',book_views.base),
     url(r'^admin/', admin.site.urls),
 ]

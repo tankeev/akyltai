@@ -360,8 +360,14 @@ a, a:hover
 .row .one {
     margin:0 !important;
 }
-.container-slide{
-    height:582px;
+.container-slide {
+    height: 600px;
+}
+
+@media(max-width:900px){
+    .container-slide {
+    height: 550px;
+}
 }
 #cta-1 {
   margin: 0;

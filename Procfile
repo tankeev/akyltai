@@ -1,0 +1,1 @@
+web: gunicorn akyltai.wsgi --log-file -

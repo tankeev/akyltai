@@ -21,6 +21,8 @@
   .h2, h2 {
     font-size: 3.25rem;
     padding-bottom: 15px;
+    padding-top: 45px;
+        color: #FF9800;
 }
 
 #desc .lead {
@@ -31,7 +33,7 @@
 #desc ul>li{
   font-size: 1.75rem;
 }
-}
+
 
 a, a:hover {
   text-decoration-color: #FFD34E;
@@ -62,5 +64,5 @@ header {
 }
 
 #desc {
-  padding: 100px 10px 100px 10px;
+  padding: 50px 10px 100px 10px;
 }

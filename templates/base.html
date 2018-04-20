@@ -109,11 +109,11 @@
                           <span>Стоимость обучения</span>
                         </a>
                       </li>
-    
+                      
                       <li>
-                        <a href="#0">
-                          <em>Приемная</em>
-                          <span>Как можно поступить</span>
+                        <a href="{% url 'kabyl_aluu' %}">
+                          <em>Кабыл алуу</em>
+                          <span>Мектепке өтүүнүн шарттары</span>
                         </a>
                       </li>
     
@@ -298,37 +298,9 @@
         </div>
       
 
-    <header id="header">
-      <div class="container text-center header-img">
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item">
-              <a href="{% url 'home' %}">Башкы</a>
-            </li>
-            <li class="breadcrumb-item active" aria-current="page">Мектеп тууралуу</li>
-          </ol>
-        </nav>
-      </div>
-    </header>
+    {% block content %} 
 
-    <section id="desc">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Окуу ситемасы</h2>
-            <p class="lead">Окуу ишмердиги Кыргыз республикасынын билим берүү жана илим министрлигинин бекиткен окуу программасынын негизинде жүргүзүлөт.</p>
-            <ul>
-              <li>Мектептик компонент катары класстарга жараша англис тили, түрк тили, информатика, логика, сөз өстүрүү, китеп окуу, этюд(чыгармачылык
-              сааты) ж.б. сабактары каралган.</li></ul>
-
-            <h2>Окуу күндөрү</h2>
-            <ul>
-              <li>Окуу жылы 1-сентябрь 25-май аралыгында, 4 чейректик, 5 күндүк окуу мөөнөтү менен жүргүзүлөт.</li>       
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+    {% endblock %}
     
 
     <footer class="" id="footer">

@@ -1,0 +1,44 @@
+{% extends 'base.html'%}
+{% load static%}
+{%block content%}
+
+<header id="header" class="header3">
+      <div class="container text-center header-img">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="{% url 'home' %}">Башкы</a>
+            </li>
+            <li class="breadcrumb-item active header3" aria-current="page">Даталар</li>
+          </ol>
+        </nav>
+      </div>
+    </header>
+
+    <section id="desc" class="text2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="header3-h2">Манилүү даталар</h2>
+            <ul>
+              <li>1 январь - Жаңы жыл</li>
+              <li>23 февраль - Мекенди коргоочунун күнү</li>
+              <li>8 март-  Эл аралык аялдар күнү</li>
+              <li>21-23 март - Нооруз</li>
+              <li>7 апрель -  Элдик революция күнү</li>
+              <li>1 май - Эмгек күнү</li>
+              <li>5 май - Кыргыз Республикасынын конституция күнү</li>
+              <li>9 май - Жеңиш күнү</li>
+              <li>1 июнь - Балдарды коргоо күнү</li>
+              <li>31 август - Эгемендүүлүк күнү</li>
+              <li>1 сентябрь - Билим күнү</li>
+              <li>23 сентябрь - Мамлекеттик тил күнү</li>
+              <li>5 октябрь - Мугалимдер күнү</li>
+              <li>7 ноябрь - Улуу Октябрь Социалисттик революциясынын күнү</li>
+            </ul>            
+          </div>
+        </div>
+      </div>
+    </section>
+
+{%endblock%}

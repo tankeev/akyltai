@@ -8,3 +8,6 @@ def info(request):
 
 def kabyl_aluu(request):
     return render(request, 'kabyl_aluu.html')
+    
+def daty(request):
+    return render(request, 'daty.html')

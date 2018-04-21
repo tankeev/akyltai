@@ -102,6 +102,15 @@ header {
   background-size: 100%;
 }
 
+.header3 {
+  background-image: url('/static/img/header3.jpg') !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+
+
 
 
 @media (min-width: 992px) {
@@ -121,4 +130,14 @@ header {
     font-weight: normal;
     color: #1A1A1A;
     margin: 0 0 .6em;
+}
+
+
+
+.breadcrumb-item.active.header3 {
+    color: #1691a3;
+}
+
+.header3-h2{
+    color: #e00523 !important;
 }

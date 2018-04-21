@@ -17,3 +17,6 @@ def obrazovanie(request):
 
 def rasp(request):
     return render(request, 'rasp.html')
+
+def metod(request):
+    return render(request, 'metod.html')

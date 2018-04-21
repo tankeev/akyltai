@@ -401,6 +401,12 @@ a {
     transition: transform .3s, -webkit-transform .3s;
     text-align: left;
   }
+  .contacts ul>li{
+    text-align: center;
+  }
+
+
+
   .cd-morph-dropdown .content > ul::after {
     clear: both;
     content: "";

@@ -54,14 +54,15 @@
     font-size: 2.75rem;
     padding-bottom: 15px;
     padding-top: 45px;
-    color: #2196F3;}
+    color: #00bcd4d1
+  }
 
 #desc
   .h2, h2 {
     font-size: 2.75rem;
     padding-bottom: 15px;
     padding-top: 45px;
-        color: #FF9800;
+    color: #FF9800;
 }
 
 #desc .lead {
@@ -84,9 +85,11 @@ img{
   display: block;
   
 }
-
-header {
+.header1{
   background-image: url('/static/img/school1.jpg');
+}
+
+header { 
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -109,4 +112,13 @@ header {
 
 #desc {
   padding: 0px 10px 100px 10px;
+}
+
+.cd-morph-dropdown .content h2 {
+    padding: 0px 0px 0px 0px;
+    font-size: 1.8rem;
+    text-transform: none;
+    font-weight: normal;
+    color: #1A1A1A;
+    margin: 0 0 .6em;
 }

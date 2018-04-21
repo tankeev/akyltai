@@ -96,11 +96,12 @@ header {
 }
 
 .header2 {
-  background-image: url('/static/img/header2.jpg') !important;
+  background-image: url('/static/img/header_2.jpg') !important;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
 }
+
 
 .header3 {
   background-image: url('/static/img/header3.jpg') !important;
@@ -108,8 +109,6 @@ header {
   background-position: center;
   background-size: 100%;
 }
-
-
 
 
 
@@ -134,10 +133,13 @@ header {
 
 
 
-.breadcrumb-item.active.header3 {
+.breadcrumb-item.active.header-li {
     color: #1691a3;
 }
 
 .header3-h2{
     color: #e00523 !important;
 }
+
+
+

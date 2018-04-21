@@ -361,7 +361,7 @@ a, a:hover
     margin:0 !important;
 }
 .container-slide {
-    height: 600px;
+    height: 580px;
 }
 
 @media(max-width:900px){

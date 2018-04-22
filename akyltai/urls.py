@@ -23,4 +23,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^kabyl_aluu/',book_views.kabyl_aluu, name="kabyl_aluu"),
     url(r'^daty/',book_views.daty, name="daty"),
+    url(r'^obrazovanie/',book_views.obrazovanie, name="obrazovanie"),
+    
 ]

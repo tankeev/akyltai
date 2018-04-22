@@ -11,3 +11,6 @@ def kabyl_aluu(request):
     
 def daty(request):
     return render(request, 'daty.html')
+    
+def obrazovanie(request):
+    return render(request, 'obrazovanie.html')

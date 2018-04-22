@@ -1,0 +1,84 @@
+{% extends 'base.html'%} 
+{% load static%} 
+{%block content%}
+
+<header id="header" class="header1">
+    <div class="container text-center header-img">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="{% url 'home' %}">Башкы</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">Мектеп тууралуу</li>
+            </ol>
+        </nav>
+    </div>
+</header>
+
+<section id="desc">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>Окуу ситемасы</h2>
+                <p class="lead">Окуу ишмердиги Кыргыз республикасынын билим берүү жана илим министрлигинин бекиткен окуу программасынын негизинде
+                    жүргүзүлөт.</p>
+                <ul>
+                    <li>Мектептик компонент катары класстарга жараша англис тили, түрк тили, информатика, логика, сөз өстүрүү,
+                        китеп окуу, этюд(чыгармачылык сааты) ж.б. сабактары каралган.</li>
+                </ul>
+
+                <h2>Окуу күндөрү</h2>
+                <ul>
+                    <li>Окуу жылы 1-сентябрь 25-май аралыгында, 4 чейректик, 5 күндүк окуу мөөнөтү менен жүргүзүлөт.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="showcase">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+
+            <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('/static/img/obr/1.jpg');"></div>
+            <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                <h2 class="h2">Форма жана окуу китептери</h2>
+                <p class="lead mb-0">Окуучуларга окуу жылынын башында мектеп тарабынан негизги китептер, кошумча колдонмо китептер жана дептерлер берилип, жыл
+                аягында негизги китептер кайтарылып алынат. </p>
+                <p class="lead mb-0">Окуучулар мектептерибизде бирдиктүү форма кийишет. Окуучуга мектепке алгач кабыл алынганда мектеп тарабынан окуу формасы
+                берилет. Кийинки сапар муктаждык болгондо керектүү форманы ата-эне өзү камсыздайт.</p>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-lg-6 text-white showcase-img" style="background-image: url('/static/img/obr/2.jpg');"></div>
+            <div class="col-lg-6 my-auto showcase-text">
+                <h2 class="h2">Тарбия берүү</h2>
+                <p class="lead mb-0">Чөйрө баланын тарбиялануусунда өтө чоң роль ойнойт. Андыктан балага “жагымдуу жана жакшы” чөйрө түзүп, анын ар бир иш-аракетин
+                жакындан көзөмөлдөп жеке иштөө жана ата-энеси менен иш алып баруу колго алынган. Баланын үйдөгү тарбиялык иш-аракеттери үчүн
+                дагы күндөлүк колдонулуп, бул боюнча жардамчы(ассистент) мугалимдер иштешет.</p>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('/static/img/obr/3.jpg');"></div>
+            <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                <h2 class="h2"> Ассистент</h2>
+                <p class="lead mb-0">Ар бир класстын класс жетекчисинен тышкары жардамчы мугалимдер(ассистенттер) иштешет. Алардын окуучулардын окуудагы мотивациясын
+                арттырууда, таалим-тарбия берүүдө, жеке проблемаларын чечүүдө , ата-эне менен иш алып барууда ассистенттердин ролдору өтө
+                чоң.
+                </p>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-lg-6 text-white showcase-img" style="background-image: url('/static/img/obr/4.jpg');"></div>
+            <div class="col-lg-6 my-auto showcase-text">
+                <h2 class="h2">Олимпиадалар</h2>
+                <p class="lead mb-0">Лицейлерибиздин дүйнөлүк жана эл аралык предметтик, проектик олимпиадалардагы ийгиликтери жалпыбызга маалым. Ушул ийгиликтерди
+                мындан да көбөйтүп жана жогорулатыш үчүн шыктуу, таланттуу балдарды таап, аларды эрте жаштан тарбиялоо учурдун талабы. Ошондуктан
+                мектептербизде да предметтик жана проектикалык олимпиадаларга даярдоо иштери да колго алынган.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+{%endblock%}

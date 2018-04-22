@@ -9,6 +9,11 @@
     padding: 24px 0 100px;
 }
 
+.breadcrumb-item .header-rasp{
+    color: rgb(255, 255, 255);
+}
+
+
  .main-nav {
     width: 100%;
     background-color: #00b2c0;
@@ -50,6 +55,12 @@
     font-size: 20px;
     color: aliceblue;
 }
+
+.header4 li  {
+    font-size: 20px;
+    color: aliceblue !important;
+}
+
 #desc .text2 h2 {
     font-size: 2.25rem;
     padding-bottom: 15px;
@@ -114,6 +125,13 @@ header {
   background-size: 100%;
 }
 
+.header4 {
+  background-image: url('/static/img/rasp.jpg') !important;
+  background-repeat: no-repeat !important;
+  background-position: center;
+  background-size: 100%;
+}
+
 
 
 @media (min-width: 992px) {
@@ -156,4 +174,9 @@ header {
 
 .showcase .showcase-text {
     padding: 3rem;
+}
+
+
+.showcase .showcase-text pre {
+    font-size: 1.75rem;
 }

@@ -1,0 +1,45 @@
+{% extends 'base.html'%} {% load static%} {%block content%}
+
+<header id="header" class="header4">
+    <div class="container text-center header-img">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb header-rasp">
+                <li class="breadcrumb-item">
+                    <a href="{% url 'home' %}">Башкы</a>
+                </li>
+                <li class="breadcrumb-item active " aria-current="page">Күндөлүк режим</li>
+            </ol>
+        </nav>
+    </div>
+</header>
+
+<section id="desc" class="text2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2 class="header3-h2">Күндөлүк режим</h2>
+                <ul>
+                    <li>Сабактар 9:00 башталып, 16:30 аяктайт. Эртең мененки жана түшкү тамак каралган. Негизги сабактар түшкө чейин окутулуп, түштөн
+                    кийин окуучулардын чыгармачылыгын өстүрүү максатында мектептин компоненти болгон сабактар, өз алдынча изденүүсу, математикалык
+                    эсеп жана жазуу иштери үчүн этюддар, маданий эс алуу иш-чаралары, конкурстар, экскурсиялар жана ар кандай ийримдер уюштурулат.</li>
+                    
+                </ul>
+            </div>
+            <br>
+            <div style="padding-top:15px;" class="col-lg-6 mx-auto">
+                <ul>
+                    <li ><b>8:30</b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Линейка</li>
+                    <li style="padding-top:8px;"><b>8:45</b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;Китеп окуу</li>
+                    <li style="padding-top:8px;"><b>9:00-9:45</b>&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;1-сабак</li>
+                    <li style="padding-top:8px;"><b>9:45-10:00</b>&emsp;&emsp;&emsp;&emsp;&nbsp;Чай/эс алуу</li>
+                    <li style="padding-top:8px;"><b>10:00-10:45</b>&emsp;&emsp;&emsp;&emsp;2-сабак</li>
+                    <li style="padding-top:8px;"><b>10:50-11:35</b>&emsp;&emsp;&emsp;&emsp;3-сабак</li>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+{%endblock%}

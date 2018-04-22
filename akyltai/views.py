@@ -14,3 +14,6 @@ def daty(request):
     
 def obrazovanie(request):
     return render(request, 'obrazovanie.html')
+
+def rasp(request):
+    return render(request, 'rasp.html')

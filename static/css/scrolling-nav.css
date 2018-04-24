@@ -139,6 +139,14 @@ header {
     background-size: 100%;
   }
 
+.header6 {
+    background-image: url('/static/img/lib.jpg') !important;
+    background-repeat: no-repeat !important;
+    background-position: center;
+    background-size: 100%;
+  }
+
+
 
 @media (min-width: 992px) {
   #header {

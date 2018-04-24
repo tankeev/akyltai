@@ -19,4 +19,7 @@ def rasp(request):
     return render(request, 'rasp.html')
 
 def metod(request):
-    return render(request, 'metod.html')
+    return render(request, 'metod.html') 
+
+def kitepkana(request):
+    return render(request, 'kitepkana.html')

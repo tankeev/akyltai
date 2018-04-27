@@ -225,3 +225,17 @@ header {
 .photobox__label{
   font-size: 24px;
 }
+
+.card-text {
+  font-size: 1.5rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+#title-day {
+  font-size: 1.75rem;
+  color: #FF9800;
+  padding: 2rem;
+}

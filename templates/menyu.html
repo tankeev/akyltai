@@ -1,0 +1,131 @@
+{% extends 'base.html'%} {% load static%} {%block content%}
+
+<header id="header" class="header1">
+    <div class="container text-center header-img">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="{% url 'home' %}">Башкы</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">Мектеп тууралуу</li>
+            </ol>
+        </nav>
+    </div>
+</header>
+
+<section id="desc">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 mx-auto">
+                <h2>Окуу ситемасы</h2>
+                <div class="card text-center">
+                    <div class="card-header">
+                        <ul class="nav nav-tabs card-header-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Неделя - 1</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title" id="title-day">Дүйшөмбү</h5>
+                        <div class="card-group">
+                            <div class="card">
+                                <img class="card-img-top" src="{% static 'img/food.jpg'%}" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Завтрак</h5>
+                                    <p class="card-text">Омлет с овощами банан хлеб, чай с сахаром.</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img class="card-img-top" src="{% static 'img/food.jpg'%}" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Обед</h5>
+                                    <p class="card-text">Шорпо с мяс. макароны салат ассорти хлеб чай с сахаром.</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <h5 class="card-title" id="title-day">Шейшемби</h5>
+                        <div class="card-group">
+                            <div class="card">
+                                <img class="card-img-top" src="{% static 'img/food.jpg'%}" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Завтрак</h5>
+                                    <p class="card-text">Омлет с овощами банан хлеб, чай с сахаром.</p>
+                                </div>
+                                
+                            </div>
+                            <div class="card">
+                                <img class="card-img-top" src="{% static 'img/food.jpg'%}" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Обед</h5>
+                                    <p class="card-text">Шорпо с мяс. макароны салат ассорти хлеб чай с сахаром.</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <h5 class="card-title" id="title-day">Шаршемби</h5>
+                        <div class="card-group">
+                            <div class="card">
+                                <img class="card-img-top" src="{% static 'img/food.jpg'%}" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Завтрак</h5>
+                                    <p class="card-text">Омлет с овощами банан хлеб, чай с сахаром.</p>
+                                </div>
+                        
+                            </div>
+                            <div class="card">
+                                <img class="card-img-top" src="{% static 'img/food.jpg'%}" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Обед</h5>
+                                    <p class="card-text">Шорпо с мяс. макароны салат ассорти хлеб чай с сахаром.</p>
+                                </div>
+                        
+                            </div>
+                        </div>
+                        <h5 class="card-title" id="title-day">Бейшемби</h5>
+                        <div class="card-group">
+                            <div class="card">
+                                <img class="card-img-top" src="{% static 'img/food.jpg'%}" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Завтрак</h5>
+                                    <p class="card-text">Омлет с овощами банан хлеб, чай с сахаром.</p>
+                                </div>
+                        
+                            </div>
+                            <div class="card">
+                                <img class="card-img-top" src="{% static 'img/food.jpg'%}" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Обед</h5>
+                                    <p class="card-text">Шорпо с мяс. макароны салат ассорти хлеб чай с сахаром.</p>
+                                </div>
+                        
+                            </div>
+                        </div>
+                        <h5 class="card-title" id="title-day">Жума</h5>
+                        <div class="card-group">
+                            <div class="card">
+                                <img class="card-img-top" src="{% static 'img/food.jpg'%}" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Завтрак</h5>
+                                    <p class="card-text">Омлет с овощами банан хлеб, чай с сахаром.</p>
+                                </div>
+                        
+                            </div>
+                            <div class="card">
+                                <img class="card-img-top" src="{% static 'img/food.jpg'%}" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Обед</h5>
+                                    <p class="card-text">Шорпо с мяс. макароны салат ассорти хлеб чай с сахаром.</p>
+                                </div>
+                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{%endblock%}

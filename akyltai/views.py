@@ -29,3 +29,6 @@ def sostav(request):
     
 def krujok(request):
     return render(request, 'krujok.html')
+
+def menyu(request):
+    return render(request, 'menyu.html')

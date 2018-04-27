@@ -203,3 +203,25 @@ header {
 .testimonials h5 {
     font-size: 1.75rem;
 }
+
+.krujok {
+  padding-top: 100px;
+}
+
+@media(max-width:900px){
+  .krujok {
+  padding-top: 40px;
+}
+}
+
+
+@media(max-width:1200px) and (min-width:480px){
+.photobox__label{
+  font-size: 17px !important;
+}
+}
+
+
+.photobox__label{
+  font-size: 24px;
+}

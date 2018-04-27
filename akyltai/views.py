@@ -26,3 +26,6 @@ def kitepkana(request):
 
 def sostav(request):
     return render(request, 'sostav.html')
+    
+def krujok(request):
+    return render(request, 'krujok.html')

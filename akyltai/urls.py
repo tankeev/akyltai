@@ -27,4 +27,5 @@ urlpatterns = [
     url(r'^rasp/',book_views.rasp, name="rasp"),
     url(r'^metod/',book_views.metod, name="metod"),
     url(r'^kitepkana/',book_views.kitepkana, name="kitepkana"),
+    url(r'^sostav/',book_views.sostav, name="sostav"),
 ]

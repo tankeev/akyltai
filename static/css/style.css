@@ -369,6 +369,13 @@ a, a:hover
     height: 530px;
 }
 }
+
+@media(max-width:1064px){
+    .container-slide {
+    height: 540px;
+}
+}
+
 #cta-1 {
   margin: 0;
   color: #444;
@@ -672,4 +679,9 @@ a, a:hover
   z-index: 1;
 }
 
+
+
+.showcase h2{
+    text-align: center;
+}
 

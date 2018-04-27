@@ -23,3 +23,6 @@ def metod(request):
 
 def kitepkana(request):
     return render(request, 'kitepkana.html')
+
+def sostav(request):
+    return render(request, 'sostav.html')

@@ -19,7 +19,7 @@
     background-color: #00b2c0;
     background-color: rgba(0,178,192,0.5);
     margin: 40px 0 0 0;
-    height: 6em;
+    height: 70px;
  }
 .breadcrumb-item+.breadcrumb-item::before {
     display: inline-block;
@@ -192,5 +192,14 @@ header {
 
 
 .showcase .showcase-text pre {
+    font-size: 1.75rem;
+}
+
+.font-weight-light {
+    font-weight: 300!important;
+    font-size: 15px;
+}
+
+.testimonials h5 {
     font-size: 1.75rem;
 }

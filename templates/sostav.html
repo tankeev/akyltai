@@ -1,0 +1,52 @@
+{% extends 'base.html'%} {% load static%} {%block content%}
+
+<header id="header" class="header1">
+    <div class="container text-center header-img">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="{% url 'home' %}">Башкы</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">Коллектив</li>
+            </ol>
+        </nav>
+    </div>
+</header>
+
+<section class="testimonials text-center bg-light">
+    <div class="container">
+        <h2 class="mb-5">Коллектив</h2>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                    <img class="img-fluid rounded-circle mb-3" src="{% static 'img/testimonials-1.jpg' %}" alt="">
+                    <h5 class="h5">Сыддык Кая</h5>
+                    <p class="font-weight-light mb-0">Директор</p>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                    <img class="img-fluid rounded-circle mb-3" src="{% static 'img/testimonials-2.jpg' %}" alt="">
+                    <h5 class="h5">Ишкыналиева Атыр Кенешовна</h5>
+                    <p class="font-weight-light mb-0">Зам.директора по УВР</p>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                    <img class="img-fluid rounded-circle mb-3" src="{% static 'img/sostav/3.jpg' %}" alt="">
+                    <h5 class="h5">Балтабаев Кудайназар Абдулахатович</h5>
+                    <p class="font-weight-light mb-0">Зам.директора по УВР</p>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                    <img class="img-fluid rounded-circle mb-3" src="{% static 'img/testimonials-3.jpg' %}" alt="">
+                    <h5 class="h5">Шаршекеева Дариха Шабданбековна</h5>
+                    <p class="font-weight-light mb-0">Зам. директора по ВР</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{%endblock%}

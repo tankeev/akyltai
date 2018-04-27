@@ -12,6 +12,7 @@
   <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
   
   <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:300" rel="stylesheet">
   <link href="{% static 'vendor/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
   <link href="{% static 'vendor/simple-line-icons/css/simple-line-icons.css' %}" rel="stylesheet" type="text/css">
   <link href="{% static 'vendor/simple-line-icons/css/simple-line-icons.css' %}" rel="stylesheet" type="text/css">
@@ -48,6 +49,7 @@
   <link rel="stylesheet" href="{% static 'scss/_masthead.scss' %}">
   <link rel="stylesheet" href="{% static 'scss/_testimanials.scss' %}">
   <link rel="stylesheet" href="{% static 'scss/landing-page.scss' %}">
+  <link rel="stylesheet" href="{% static 'css/scrolling-nav.css' %}">
   <link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>  
   
   <!-- Resource style -->
@@ -203,7 +205,7 @@
                           </li>
                     
                           <li>
-                            <a href="#0">
+                            <a href="{% url 'sostav' %}">
                               <em>Cостав</em>
                               <span>Наш учительский состав</span>
                             </a>
@@ -294,6 +296,7 @@
 
 </section>
 
+
 <!-- Icons Grid -->
 <section id = "asd" class="features-icons bg-light text-center">
   <div class="container">
@@ -329,30 +332,42 @@
   </div>
 </section>
 
+
+
+<!-- Mission Vision-->
+
+      
+      
+
 <!-- Image Showcases -->
 <section class="showcase">
   <div class="container-fluid p-0">
     <div class="row no-gutters">
-
-      <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('static/img/edupage.png');"></div>
-      <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-        <h2 class="h2" >Электрондук күндөлүк!</h2>
-        <p class="lead mb-0">Всю информацию об оценках, посещаемости, замечаниях и домашних уроках можно получать гораздо проще, быстрее и эффективнее. Через обычное приложение. </p>
-      </div>
-    </div>
-    <div class="row no-gutters">
-      <div class="col-lg-6 text-white showcase-img" style="background-image: url('static/img/access.jpg');"></div>
-      <div class="col-lg-6 my-auto showcase-text">
-        <h2 class="h2" >Электрондук кирүү системасы</h2>
-        <p class="lead mb-0">Балаңыз мектепке киргенде же чыкканда автоматтык түрдө сиздин телефонго смс келет.</p>
-      </div>
-    </div>
-    <div class="row no-gutters">
       <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('static/img/bg-showcase-3.jpg');"></div>
       <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+        <h2 class="h2" >Биздин миссия</h2>
+        <p class="lead mb-0">Воспитать поколение с разумом, с нпавственностью. И поколение сбалансированное в социальных отношениях, поколение проинимающее
+        культурные и национальные ценности, мыслящее аналитически и критически.   Тех кто будет готов играть активную роль: в школе, в оюществе,
+        заодно и поколение, которое успешно может представить свою семью, свою школу, свой грод и, конечно же, свою страну.</p>
+      </div>
+    </div>
+    <div class="row no-gutters">
+      <div class="col-lg-6 text-white showcase-img" style="background-image: url('static/img/prof.jpg');"></div>
+      <div class="col-lg-6 my-auto showcase-text">
+        <h2 class="h2" >Введение</h2>
+        <p class="lead mb-0">Учреждение должно быть такое, которое может быть примером для других учреждений. 
+          Это можно доказать с командой-экспертом в своем деле, которая любти свою профессию, с командой, которая имеет 
+          универсальную и национальную ценность. Использовать при этом современные и сегодняшние возможности.
+        </p>
+      </div>
+    </div>
+    <div class="row no-gutters">
+      <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('static/img/obr/2.jpg');"></div>
+      <div class="col-lg-6 order-lg-1 my-auto showcase-text">
         <h2 class="h2" >Тарбия берүү!</h2>
-        <p class="lead mb-0">Чөйрө баланын тарбиялануусунда өтө чоң роль ойнойт! Андыктан мектептерде балага "жагымдуу жана жакшы"
-          чөйрө түзүп, анын ар бир иш-аракетин жакындан жардам берүүгө өзгөчө маани берилет.
+        <p class="lead mb-0">Чөйрө баланын тарбиялануусунда өтө чоң роль ойнойт. Андыктан балага “жагымдуу жана жакшы” чөйрө түзүп, анын ар бир иш-аракетин
+        жакындан көзөмөлдөп жеке иштөө жана ата-энеси менен иш алып баруу колго алынган. Баланын үйдөгү тарбиялык иш-аракеттери үчүн
+        дагы күндөлүк колдонулуп, бул боюнча жардамчы(ассистент) мугалимдер иштешет.
         </p>
       </div>
     </div>
@@ -365,7 +380,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h2 class="title-krujok mb-5">Кружоктор</h2>
+          <h2 class="title-krujok mb-5">Ийримдер</h2>
           <p class="lead mb-0 krujok-text">Окуучулардын маданий, чыгармачылык, спорттук жөндөмүн өстүрүү максатында аптанын 4 күнү сабактардан кийин 
             төмөндөгү ийримдер иштеп, каалаган окуучуларга экиден ийримге катышууга мүмкүнчүлүк берилген. </p>
         </div>                

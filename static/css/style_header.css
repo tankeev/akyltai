@@ -243,7 +243,7 @@ a {
   font-size: 1.3rem;
   margin: 20px 0 10px 14px;
 }
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 940px) {
   .cd-morph-dropdown {
     position: absolute;
     height: 80px;
@@ -262,7 +262,7 @@ a {
   }
   .cd-morph-dropdown .main-nav {
     display: inline-block;
-    padding-right: 60px;
+    padding-right: 20px;
   }
   .cd-morph-dropdown .main-nav > ul > li {
     display: inline-block;

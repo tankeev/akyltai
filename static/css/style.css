@@ -656,7 +656,10 @@ a, a:hover
 
 }
 
-
+a.label:hover {
+    color: #FF9800;
+    cursor: pointer;
+}
 
 .quote-content .quote-author {
   bottom: 15px;

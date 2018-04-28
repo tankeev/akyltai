@@ -204,12 +204,12 @@ header {
     font-size: 1.75rem;
 }
 
-.krujok {
+#krujok1 {
   padding-top: 100px;
 }
 
 @media(max-width:900px){
-  .krujok {
+  #krujok1 {
   padding-top: 40px;
 }
 }

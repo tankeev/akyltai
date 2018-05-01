@@ -47,6 +47,7 @@
     <link rel="stylesheet" href="{% static 'scss/_testimanials.scss' %}">
     <link rel="stylesheet" href="{% static 'scss/landing-page.scss' %}">
     <link rel="stylesheet" href="{% static 'css/landing-page.css' %}">
+    <link rel="stylesheet" href="{% static 'css/gallery.css' %}">
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
     <!-- Bootstrap core CSS -->
@@ -169,7 +170,7 @@
                   <div class="content">
                     <ul>
                       <li>
-                        <a href="#0">
+                        <a href="{% url 'gallery' %}">
                           <em>Мектеп</em>
                           <span>Сүрөттөр</span>
                         </a>
@@ -319,6 +320,7 @@
     <script src="{% static 'js/custom.js' %}"></script>
     <script src="{% static 'js/gulpfile.js' %}"></script>
     <script src="{% static 'js/package.json' %}"></script>
+    <script src="{% static 'js/gallery.js' %}"></script>
     <script src="{% static 'js/package-lock.json' %}"></script>
     <script src="{% static 'contactform/contactform.js' %}"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>

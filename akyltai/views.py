@@ -32,3 +32,6 @@ def krujok(request):
 
 def menyu(request):
     return render(request, 'menyu.html')
+
+def gallery(request):
+    return render(request, 'gallery.html')

@@ -146,6 +146,10 @@ header {
     background-size: 100%;
   }
 
+.gall {
+  padding-top: 3%;
+}
+
 
 
 @media (min-width: 992px) {

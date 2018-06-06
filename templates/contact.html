@@ -1,0 +1,116 @@
+{% extends 'base.html'%} {% load static%} {%block content%}
+<header id="header" class="header1">
+	<div class="container text-center header-img">
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item">
+					<a href="{% url 'home' %}">Башкы</a>
+				</li>
+				<li class="breadcrumb-item active" aria-current="page">Мектеп тууралуу</li>
+			</ol>
+		</nav>
+	</div>
+</header>
+
+<section id="desc">
+	<div class="container">
+		<div class="row">
+			<div class="container-contact100">
+				<div class="wrap-contact100">
+					<form class="contact100-form validate-form">
+						<span class="contact100-form-title">
+							Бизге кат жазыңыз
+						</span>
+
+						<label class="label-input100" for="first-name">Толук аты жөнүңүз *</label>
+						<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Type first name">
+							<input id="first-name" class="input100" type="text" name="first-name" placeholder="Атыңыз">
+							<span class="focus-input100"></span>
+						</div>
+						<div class="wrap-input100 rs2-wrap-input100 validate-input" data-validate="Type last name">
+							<input class="input100" type="text" name="last-name" placeholder="Фамилия">
+							<span class="focus-input100"></span>
+						</div>
+
+						<label class="label-input100" for="email">Enter your email *</label>
+						<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+							<input id="email" class="input100" type="text" name="email" placeholder="example@email.com">
+							<span class="focus-input100"></span>
+						</div>
+
+						<label class="label-input100" for="phone">Enter phone number</label>
+						<div class="wrap-input100">
+							<input id="phone" class="input100" type="text" name="phone" placeholder="+996 702 14 65 61">
+							<span class="focus-input100"></span>
+						</div>
+
+						<label class="label-input100" for="message">Катыңыз *</label>
+						<div class="wrap-input100 validate-input" data-validate = "Message is required">
+							<textarea id="message" class="input100" name="message" placeholder="Бул жерге"></textarea>
+							<span class="focus-input100"></span>
+						</div>
+
+						<div class="container-contact100-form-btn">
+							<button class="contact100-form-btn">
+								Жөнөтүү
+							</button>
+						</div>
+					</form>
+
+					<div class="contact100-more flex-col-c-m" style="background: url('static/img/bg-01.jpg');">
+						<div class="flex-w size1 p-b-47">
+							<div class="txt1 p-r-25">
+								<span class="fa fa-map-marker" aria-hidden="true"></span>
+							</div>
+
+							<div class="flex-col size2">
+								<span class="txt1 p-b-20">
+									Адрес
+								</span>
+
+								<span class="txt2">
+									Тыныстанова 2А 720020, Бишкек, Кыргызстан
+								</span>
+							</div>
+						</div>
+
+						<div class="dis-flex size1 p-b-47">
+							<div class="txt1 p-r-25">
+								<span class="fa fa-phone" aria-hidden="true"></span>
+							</div>
+
+							<div class="flex-col size2">
+								<span class="txt1 p-b-20">
+									Байланышуу
+								</span>
+
+								<span class="txt3">
+									 +996 558 102 050
+								</span>
+							</div>
+						</div>
+
+						<div class="dis-flex size1 p-b-47">
+							<div class="txt1 p-r-25">
+								<span class="fa fa-envelope-o" aria-hidden="true"></span>
+							</div>
+
+							<div class="flex-col size2">
+								<span class="txt1 p-b-20">
+									Кат жазыңыз
+								</span>
+
+								<span class="txt3">
+									 59.12kg@gmail.com
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+{% endblock %}

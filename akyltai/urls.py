@@ -31,4 +31,5 @@ urlpatterns = [
     url(r'^krujok/',book_views.krujok, name="krujok"),
     url(r'^menyu/',book_views.menyu, name="menyu"),
     url(r'^gallery/',book_views.gallery, name="gallery"),
+    url(r'^contact/',book_views.contact, name="contact"),
 ]

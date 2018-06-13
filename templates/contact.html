@@ -16,56 +16,13 @@
 	<div class="container">
 		<div class="row">
 			<div class="container-contact100">
-				<div class="wrap-contact100">
-					<!--
-					<form method="post">
-						{% csrf_token %} {{ form.as_p }}
-						<div class="form-actions">
-							<button type="submit">Send</button>
-						</div>
-					</form> -->
-					
-					<form class="contact100-form validate-form">
-						<span class="contact100-form-title">
-							Бизге кат жазыңыз
-						</span>
+				<div class="wrap-contact100 col-md-12">
+					<div class="maps col-sm-8">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2925.6128422241313!2d74.60378600006884!3d42.83879133280068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb61849c14003%3A0x9194d1d1e2ab23a1!2z0J3QntCoICLQkNC60YvQu9GC0LDQuSI!5e0!3m2!1sen!2skg!4v1528884028803"
+						 width="800" height="780" frameborder="3" style="border:8" allowfullscreen></iframe>
+					</div>
 
-						<label class="label-input100" for="first-name">Толук аты жөнүңүз *</label>
-						<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Type first name">
-							<input id="first-name" class="input100" type="text" name="first-name" placeholder="Атыңыз">
-							<span class="focus-input100"></span>
-						</div>
-						<div class="wrap-input100 rs2-wrap-input100 validate-input" data-validate="Type last name">
-							<input class="input100" type="text" name="last-name" placeholder="Фамилия">
-							<span class="focus-input100"></span>
-						</div>
-
-						<label class="label-input100" for="email">Enter your email *</label>
-						<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-							<input id="email" class="input100" type="text" name="email" placeholder="example@email.com">
-							<span class="focus-input100"></span>
-						</div>
-
-						<label class="label-input100" for="phone">Enter phone number</label>
-						<div class="wrap-input100">
-							<input id="phone" class="input100" type="text" name="phone" placeholder="+996 702 14 65 61">
-							<span class="focus-input100"></span>
-						</div>
-
-						<label class="label-input100" for="message">Катыңыз *</label>
-						<div class="wrap-input100 validate-input" data-validate = "Message is required">
-							<textarea id="message" class="input100" name="message" placeholder="Бул жерге"></textarea>
-							<span class="focus-input100"></span>
-						</div>
-
-						<div class="container-contact100-form-btn">
-							<button class="contact100-form-btn">
-								Жөнөтүү
-							</button>
-						</div>
-					</form>
-
-					<div class="contact100-more flex-col-c-m" id="photo-contact">
+					<div class="contact100-more flex-col-c-m col-sm-4" id="photo-contact">
 						<div class="flex-w size1 p-b-47">
 							<div class="txt1 p-r-25">
 								<span class="fa fa-map-marker" aria-hidden="true"></span>
@@ -143,6 +100,7 @@
 							</div>
 						</div>
 					</div>
+					
 				</div>
 			</div>
 		</div>
@@ -151,3 +109,5 @@
 
 
 {% endblock %}
+
+

@@ -299,7 +299,7 @@ a, a:hover
 	float: right;
 }
 .footer-social a {
-    font-size: 18px;
+    font-size: 25px;
     color: #666;
 }
 .link-dec, .link-dec:hover{
@@ -392,6 +392,8 @@ a, a:hover
 }
 .pull-right {
   float: right;
+  vertical-align: middle;
+    padding-top: 9%;
 }
 .clearfix:after,
 .clearfix:before {
